@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.775 sec <<< FAILURE!
+falseLoginTest(scenarios.AppiumTest)  Time elapsed: 0.482 sec  <<< FAILURE!
+org.openqa.selenium.UnsupportedCommandException: Method is not implemented
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'OnSolves-Mac-mini.local', ip: '10.22.197.232', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.5', java.version: '1.8.0_211'
+Driver info: io.appium.java_client.ios.IOSDriver
+Capabilities {app: /Users/onsolvevn/Documents/..., appiumVersion: 1.16, autoAcceptAlerts: true, browserName: , databaseEnabled: false, deviceName: iPhone X, deviceOrientation: portrait, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: false, noReset: true, platform: MAC, platformName: iOS, platformVersion: 13.3, takesScreenshot: true, udid: 380FC770-0F0A-47F6-9E98-EF2..., webStorageEnabled: false}
+Session ID: b0b4b01f-4880-4c28-ac08-f01799e887ee
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:45)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.ios.IOSDriver.execute(IOSDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.getCurrentUrl(RemoteWebDriver.java:287)
+	at io.percy.selenium.Percy.snapshot(Percy.java:165)
+	at io.percy.selenium.Percy.snapshot(Percy.java:99)
+	at scenarios.AppiumTest.falseLoginTest(AppiumTest.java:17)
+

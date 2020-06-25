@@ -1,19 +1,18 @@
 package pages;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.remote.RemoteWebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
+import io.appium.java_client.ios.IOSDriver;
 import java.util.HashMap;
+import java.io.*;
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.TakesScreenshot;
 
-/**
- * Created by nishant on 13/09/14.
- */
+
+
 public class BasePage {
 
     protected WebDriver driver;
@@ -21,6 +20,18 @@ public class BasePage {
     public BasePage(WebDriver driver) {
         this.driver = driver;
         PageFactory.initElements(driver, this);
+    }
+
+    public static void takeScreenshot(IOSDriver driver, String outputLocation ) {
+        try {
+            System.out.println("Capturing the snapshot of the page ");
+            File srcFiler = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(srcFiler, new File(outputLocation));
+        }
+        catch(Exception e)
+        {
+            System.out.println(e);
+        }
     }
 
     protected void waitForVisibilityOf(By locator) {
