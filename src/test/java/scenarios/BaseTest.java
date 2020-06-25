@@ -2,6 +2,7 @@ package scenarios;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.asserts.SoftAssert;
 
 public class BaseTest extends IOSSetup {
 
@@ -14,4 +15,7 @@ public class BaseTest extends IOSSetup {
     public void tearDown() {
         driver.quit();
     }
+
+   public static SoftAssert softAssert = new SoftAssert();
+
 }

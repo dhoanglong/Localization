@@ -9,21 +9,22 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 
 public class CompareImages {
-    public static boolean compareImages(String actual, String expected, String result) {
-        BufferedImage actualImage = ImageComparisonUtil.readImageFromResources("./actual/"+actual);
-        BufferedImage expectedImage = ImageComparisonUtil.readImageFromResources("./expected/"+expected);
+    public static boolean compareImages(String file) {
+        BufferedImage actualImage = ImageComparisonUtil.readImageFromResources("./actual/"+file);
+        BufferedImage expectedImage = ImageComparisonUtil.readImageFromResources("./expected/"+file);
 
-        File resultDestination = new File("./src/test/resources/result/"+result );
+        File resultDestination = new File("./src/test/resources/result/"+file );
 
         ImageComparison imageComparison = new ImageComparison( expectedImage, actualImage, resultDestination );
 
         ImageComparisonResult comparisonResult = imageComparison.compareImages();
 
-        if(comparisonResult.getImageComparisonState().toString() == "MATCH")
+        if(comparisonResult.getImageComparisonState().toString().equalsIgnoreCase("MATCH"))
             return true;
         else{
             BufferedImage resultImage = comparisonResult.getResult();
             ImageComparisonUtil.saveImage(resultDestination, resultImage);
+            System.out.println(file+ " is not correct");
             return false;
         }
     }
