@@ -15,7 +15,7 @@ public class CompareImages {
 
         File resultDestination = new File("./src/test/resources/result/"+file );
 
-        ImageComparison imageComparison = new ImageComparison( expectedImage, actualImage, resultDestination );
+        ImageComparison imageComparison = new ImageComparison( expectedImage, actualImage );
 
         ImageComparisonResult comparisonResult = imageComparison.compareImages();
 
