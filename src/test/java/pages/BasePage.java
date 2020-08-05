@@ -22,17 +22,6 @@ public class BasePage {
         PageFactory.initElements(driver, this);
     }
 
-    public static void takeScreenshot(IOSDriver driver, String outputLocation ) {
-        try {
-            System.out.println("Capturing the snapshot of the page ");
-            File srcFiler = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            FileUtils.copyFile(srcFiler, new File(outputLocation));
-        }
-        catch(Exception e)
-        {
-            System.out.println(e);
-        }
-    }
 
     protected void waitForVisibilityOf(By locator) {
         WebDriverWait wait = new WebDriverWait(driver, 30);

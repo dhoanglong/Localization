@@ -8,7 +8,7 @@ import java.util.HashMap;
 
 
 public class CsvReader {
-    public static Map<String, String> readCSV() {
+    public static String readCSV(String element) {
 
         Map<String,String> csvValues = new HashMap<String,String>();
 
@@ -26,6 +26,6 @@ public class CsvReader {
         {
             System.out.println(e);
         }
-        return csvValues;
+        return csvValues.get(element);
     }
 }

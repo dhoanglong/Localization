@@ -8,15 +8,17 @@ import org.testng.asserts.SoftAssert;
 import static Utilities.CsvReader.readCSV;
 
 public class LoginPage extends BasePage {
+    @FindBy(xpath = "//XCUIElementTypeButton[@name='Favorites']")
+    public static WebElement favorites;
 
-    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"I am some page content \"]\n")
-    public static WebElement text1;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name='Things']")
+    public static WebElement things;
 
-    @FindBy(xpath = "//XCUIElementTypeStaticText[@name=\"I am a div\"]")
-    public static WebElement text2;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name='Scenes']")
+    public static WebElement scenes;
 
-    @FindBy(xpath = "//XCUIElementTypeLink[@name=\"i am a link\"]")
-    public static WebElement text3;
+    @FindBy(xpath = "//XCUIElementTypeButton[@name='Settings']")
+    public static WebElement settings;
 
     public LoginPage(WebDriver driver) {
         super(driver);
@@ -24,11 +26,12 @@ public class LoginPage extends BasePage {
 
     public static SoftAssert softAssert = new SoftAssert();
 
-    public static boolean compareText() {
+    public static boolean  compareText() {
         try {
-            softAssert.assertEquals(text1.getText(), readCSV().get("text1"));
-            softAssert.assertEquals(text2.getText(), readCSV().get("text2"));
-            softAssert.assertEquals(text3.getText(), readCSV().get("text3"));
+            //softAssert.assertEquals(text1.getText(), readCSV("text1"));
+            //softAssert.assertEquals(text2.getText(), readCSV("text2"));
+            //softAssert.assertEquals(text3.getText(), readCSV("text3"));
+
             softAssert.assertAll();
             return true;
         }
