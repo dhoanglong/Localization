@@ -2,7 +2,7 @@ package Utilities;
 
 public enum Phones {
 
-    IPHONE11(0, 65, 829, 1728),
+    IPHONE11(0, 65, 829, 1727),
     IPHONE7(1, 2, 3, 4);
 
     int x;

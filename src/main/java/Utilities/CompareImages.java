@@ -10,8 +10,8 @@ import java.io.File;
 
 public class CompareImages {
     public static boolean compareImages(String file) {
-        BufferedImage actualImage = ImageComparisonUtil.readImageFromResources("./actual/"+file);
-        BufferedImage expectedImage = ImageComparisonUtil.readImageFromResources("./expected/"+file);
+        BufferedImage actualImage = ImageComparisonUtil.readImageFromResources("actual/"+file);
+        BufferedImage expectedImage = ImageComparisonUtil.readImageFromResources("expected/"+file);
 
         File resultDestination = new File("./src/test/resources/result/"+file );
 

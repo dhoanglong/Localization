@@ -1,38 +1,37 @@
 package scenarios;
 
-import Utilities.Phones;
 import org.testng.annotations.Test;
-import pages.LoginPage;
+import pages.MainPage;
 
-import javax.imageio.ImageIO;
-import java.awt.*;
-import java.awt.image.BufferedImage;
-import java.io.File;
-
+import static Utilities.CompareImages.compareImages;
 import static Utilities.CropImage.cropImageSquare;
 import static Utilities.Phones.*;
+import static Utilities.TakerScreenshot.takeScreenshot;
+import static pages.MainPage.*;
 
 public class AppiumTest extends BaseTest {
 
-    @Test
-    public void falseLoginTest() throws Exception {
-        new LoginPage(driver);
-
-//        takeScreenshot(driver,"./src/test/resources/actual/favorites.png");
-//        things.click();
-//        takeScreenshot(driver,"./src/test/resources/actual/things.png");
-//        scenes.click();
-//        takeScreenshot(driver,"./src/test/resources/actual/scenes.png");
-//        settings.click();
-//        takeScreenshot(driver,"./src/test/resources/actual/settings.jpg");
-//
-//        compareImages("things.png");
-
+//    @Test
+//    public void localizationTest() throws Exception {
+//        new MainPage(driver);
         //softAssert.assertTrue(compareText());
-        //softAssert.assertEquals(text1.getText(), readCSV("text1"));path
-//      softAssert.assertTrue(compareImages("screen1_correct.png"));
+        //softAssert.assertEquals(text1.getText(), readCSV("text1"));
+//
+//    }
+
+
+    @Test
+    public void visualTest() throws Exception {
+        new MainPage(driver);
+
+        ideas.click();
+        takeScreenshot(driver,"./src/test/resources/actual/ideas.png");
+
+        things.click();
+        takeScreenshot(driver,"./src/test/resources/actual/things.png");
+
+//        softAssert.assertTrue(compareImages("ideas.png"));
 //        softAssert.assertAll();
-        cropImageSquare("/Users/onsolvevn/Documents/Localization/src/test/resources/actual/", IPHONE11);
     }
 }
 
