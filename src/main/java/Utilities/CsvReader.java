@@ -13,7 +13,7 @@ public class CsvReader {
         Map<String,String> csvValues = new HashMap<String,String>();
 
         try {
-            String csvFilename = "data/test.csv";
+            String csvFilename = "data/Japanese/translation.csv";
             CSVReader csvReader = new CSVReader(new FileReader(csvFilename));
             String[] col = null;
             while ((col = csvReader.readNext()) != null)

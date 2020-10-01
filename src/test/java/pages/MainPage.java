@@ -3,24 +3,21 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.testng.asserts.SoftAssert;
-
-import static Utilities.CsvReader.readCSV;
 
 public class MainPage extends BasePage {
-    @FindBy(xpath = "//XCUIElementTypeButton[@name='Favorites']")
+    @FindBy(xpath = "//XCUIElementTypeButton[1]")
     public static WebElement favorites;
 
-    @FindBy(xpath = "//XCUIElementTypeButton[@name='Things']")
+    @FindBy(xpath = "//XCUIElementTypeButton[2]")
     public static WebElement things;
 
-    @FindBy(xpath = "//XCUIElementTypeButton[@name='Scenes']")
+    @FindBy(xpath = "//XCUIElementTypeButton[3]")
     public static WebElement scenes;
 
-    @FindBy(xpath = "//XCUIElementTypeButton[@name='Ideas']")
+    @FindBy(xpath = "//XCUIElementTypeButton[4]")
     public static WebElement ideas;
 
-    @FindBy(xpath = "//XCUIElementTypeButton[@name='Settings']")
+    @FindBy(xpath = "//XCUIElementTypeButton[5]")
     public static WebElement settings;
 
     public MainPage(WebDriver driver) {

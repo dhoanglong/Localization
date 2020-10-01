@@ -27,7 +27,7 @@
         <!-- https://mvnrepository.com/artifact/io.appium/java-client -->
         <dependency>
             <groupId>io.appium</groupId>
-            <artifactId>java-client</artifactId>
+            <artifactId>java-client</artifactId>`
             <version>7.3.0</version>
         </dependency>
 
@@ -41,7 +41,7 @@
         <dependency>
             <groupId>com.github.romankh3</groupId>
             <artifactId>image-comparison</artifactId>
-            <version>4.1.0</version>
+            <version>4.2.1</version>
         </dependency>
     </dependencies>
 

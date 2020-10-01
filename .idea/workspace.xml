@@ -2,21 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6188a071-a5b2-48f6-9355-54a9cc3bf74e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Utilities/TakeScreenshot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Localization.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Localization.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_romankh3_image_comparison_4_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_romankh3_image_comparison_4_2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CropImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Utilities/TakerScreenshot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/scenarios/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/scenarios/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/actual/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/expected/screen2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/expected/screen1.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Utilities/CompareImages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/CompareImages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/actual/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/expected/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/actual/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/expected/screen2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Utilities/CsvReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Utilities/CsvReader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actual/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/actual/screen1_incorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/expected/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/actual/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/actual/screen1_incorrect.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/expected/screen1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/BasePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LoginPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/scenarios/AppiumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/AppiumTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/scenarios/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/BaseTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/scenarios/IOSSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/scenarios/IOSSetup.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +47,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="120">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -47,37 +69,13 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TakeScreenshot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+            <state relative-caret-position="60">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#641#642#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#254#269#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/test.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -91,6 +89,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ImageComparisonState</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -99,17 +102,32 @@
       <list>
         <option value="$PROJECT_DIR$/src/test/java/scenarios/AndroidSetup.java" />
         <option value="$PROJECT_DIR$/src/main/data/test.csv" />
-        <option value="$PROJECT_DIR$/src/test/java/scenarios/IOSSetup.java" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/CSVReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Utilities/Compare2Images.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scenarios/IOSSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scenarios/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/CroppedImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/Phone.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/data.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/DataClass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/Phones.java" />
         <option value="$PROJECT_DIR$/src/test/java/pages/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/data/test.csv" />
+        <option value="$PROJECT_DIR$/data/scratch_1.csv" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/SettingPage.java" />
+        <option value="$PROJECT_DIR$/data/data.csv" />
+        <option value="$PROJECT_DIR$/src/test/resources/expected/translation.csv" />
+        <option value="$PROJECT_DIR$/data/translation.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/scenarios/BaseTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java" />
+        <option value="$PROJECT_DIR$/data/Japanese/translation.csv" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/CropImage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/TakerScreenshot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/GetCurrentDir.java" />
+        <option value="$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java" />
       </list>
     </option>
   </component>
@@ -125,14 +143,31 @@
           <item name="Localization" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Localization" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Localization" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="clean" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Localization" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="install" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
       </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="2560" />
-    <option name="height" value="1337" />
+    <option name="width" value="1920" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -140,7 +175,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,36 +185,126 @@
             <path>
               <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
               <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="Japanese" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="scenarios" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="expected" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Localization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Localization" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="result" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/actual" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="csv" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/resources/expected" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/actual" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/Japanese" />
       <recent name="$PROJECT_DIR$/src/test/resources/expected" />
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/src/test/resources/actual" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/expected" />
+      <recent name="$PROJECT_DIR$/src/test/resources/actual" />
+      <recent name="$PROJECT_DIR$/apps" />
       <recent name="$PROJECT_DIR$/src/test/resources" />
       <recent name="$PROJECT_DIR$/data" />
-      <recent name="$PROJECT_DIR$/apps" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/test/resources/actual" />
-      <recent name="$PROJECT_DIR$/src/test/resources/expected" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -195,8 +319,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="AppiumTest.falseLoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AppiumTest.visualTesting">
+    <configuration name="GetCurrentDir" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Utilities.GetCurrentDir" />
+      <module name="Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Utilities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Localization" />
       <extension name="coverage">
         <pattern>
@@ -204,20 +341,63 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="scenarios" />
       <option name="MAIN_CLASS_NAME" value="scenarios.AppiumTest" />
-      <option name="METHOD_NAME" value="falseLoginTest" />
-      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumTest.captureScreenshot" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scenarios" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.AppiumTest" />
+      <option name="METHOD_NAME" value="captureScreenshot" />
       <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumTest.localizationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scenarios" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.AppiumTest" />
+      <option name="METHOD_NAME" value="localizationTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppiumTest.visualTesting" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Localization" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scenarios.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="scenarios" />
+      <option name="MAIN_CLASS_NAME" value="scenarios.AppiumTest" />
+      <option name="METHOD_NAME" value="visualTesting" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -226,7 +406,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AppiumTest.falseLoginTest" />
+        <item itemvalue="TestNG.AppiumTest.visualTesting" />
+        <item itemvalue="Application.GetCurrentDir" />
+        <item itemvalue="TestNG.AppiumTest.localizationTest" />
+        <item itemvalue="TestNG.AppiumTest" />
+        <item itemvalue="TestNG.AppiumTest.captureScreenshot" />
       </list>
     </recent_temporary>
   </component>
@@ -244,42 +428,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 25m 08s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.14 at 15h 52m 22s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 27m 12s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_localizationTest - 2020.08.14 at 16h 10m 44s.xml">
+      <configuration name="AppiumTest.localizationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 36m 36s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.14 at 16h 11m 04s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 39m 04s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_localizationTest - 2020.08.14 at 16h 23m 14s.xml">
+      <configuration name="AppiumTest.localizationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 42m 19s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_localizationTest - 2020.08.14 at 16h 24m 15s.xml">
+      <configuration name="AppiumTest.localizationTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 47m 05s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.14 at 16h 29m 00s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 48m 53s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.14 at 16h 31m 31s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 50m 50s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.14 at 16h 52m 30s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 52m 45s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.17 at 10h 35m 57s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="AppiumTest_falseLoginTest - 2020.06.26 at 00h 55m 25s.xml">
-      <configuration name="AppiumTest.falseLoginTest" configurationId="TestNG" />
+    <history-entry file="AppiumTest_visualTesting - 2020.08.17 at 10h 36m 43s.xml">
+      <configuration name="AppiumTest.visualTesting" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="977" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1920" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49951783" visible="true" weight="0.2284345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49951783" visible="true" weight="0.23109691" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -287,27 +470,27 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50048214" side_tool="true" weight="0.18625894" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.46327683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36045197" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.46058396" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25181347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34056225" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24744526" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299435" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32768363" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32178217" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24959394" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.5039714" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.50351924" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49951783" visible="true" weight="0.2284345" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49951783" visible="true" weight="0.22097977" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -315,18 +498,18 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50048214" side_tool="true" weight="0.18625894" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.46327683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36045197" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.4611399" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34196892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34056225" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.24754716" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3299435" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32768363" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32331607" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Maven" order="4" weight="0.5039714" />
@@ -335,208 +518,225 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/appium/java-client/7.3.0/java-client-7.3.0.jar!/io/appium/java_client/remote/AppiumCommandExecutor.class">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/settings.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/abc/favorites.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/IOSSetup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="211" selection-start-line="211" selection-end-line="211" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/test.app/PkgInfo">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Objects.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="202" column="18" selection-start-line="202" selection-start-column="18" selection-end-line="202" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/pagefactory/DefaultElementLocator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Localization.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$MAVEN_REPOSITORY$/com/opencsv/opencsv/5.2/opencsv-5.2.pom">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/FileReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources.properties" />
-    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/FileUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-524">
-          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/a.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/b.jpg" />
-    <entry file="file://$PROJECT_DIR$/data/test2.csv" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/a.properties" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="54" column="35" selection-start-line="54" selection-start-column="35" selection-end-line="54" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1305" column="23" selection-start-line="1305" selection-start-column="23" selection-end-line="1305" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/screen2.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.png" />
-    <entry file="file://$PROJECT_DIR$/b.png" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.1.0/image-comparison-4.1.0.jar!/com/github/romankh3/image/comparison/model/ImageComparisonResult.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-317">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="300">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="71" />
           <folding>
-            <element signature="e#2270#2271#0" expanded="true" />
-            <element signature="e#2318#2319#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.1.0/image-comparison-4.1.0.jar!/com/github/romankh3/image/comparison/model/ImageComparisonState.class">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/settings.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/screen1.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/screen1.png" />
+    <entry file="file://$PROJECT_DIR$/data/test.csv" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.csv" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.1.0/image-comparison-4.1.0.jar!/com/github/romankh3/image/comparison/ImageComparisonUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="300">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="255">
+          <caret line="26" column="59" lean-forward="true" selection-start-line="26" selection-start-column="59" selection-end-line="26" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/result/b.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/IOSSetup.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="274">
+          <caret line="280" column="4" lean-forward="true" selection-start-line="280" selection-start-column="4" selection-end-line="280" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/util/Map.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar!/org/apache/commons/io/FileUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+          <caret line="526" column="23" selection-start-line="526" selection-start-column="23" selection-end-line="526" selection-end-column="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/awt/image/BufferedImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="169" column="71" selection-start-line="169" selection-start-column="71" selection-end-line="169" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/asserts/Assertion.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.1.0/image-comparison-4.1.0.jar!/com/github/romankh3/image/comparison/ImageComparisonUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/settings_JP.png" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/internal/TestInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="467" selection-start-line="467" selection-end-line="467" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="1305" column="23" selection-start-line="1305" selection-start-column="23" selection-end-line="1305" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/ideas.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/favorites.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/things.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/SettingPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/scenes.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/settings.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/scenes.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/ideas.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.2.1/image-comparison-4.2.1.jar!/com/github/romankh3/image/comparison/exception/ImageComparisonException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+          <folding>
+            <element signature="e#392#393#0" expanded="true" />
+            <element signature="e#433#434#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/github/romankh3/image-comparison/4.2.1/image-comparison-4.2.1.jar!/com/github/romankh3/image/comparison/ImageComparisonUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/things.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.1.0/testng-7.1.0.jar!/org/testng/asserts/SoftAssert.class">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/scenes.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/things.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/favorites_fail.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/favorites.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/settings.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/settings.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/favorites.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/result/settings_fail.png" />
+    <entry file="file://$PROJECT_DIR$/data/Japanese/translation.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
-          <folding>
-            <element signature="e#858#859#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="17" lean-forward="true" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+      <provider editor-type-id="csv-text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/screen1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/expected/screen1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/result/screen1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/actual/ideas.png" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CropImage.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/Phones.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CsvReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+        <state relative-caret-position="225">
+          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#254#269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/test.csv">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/GetCurrentDir.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="45">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/scenarios/AppiumTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/TakeScreenshot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utilities/CompareImages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="96" selection-start-line="15" selection-start-column="96" selection-end-line="15" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
